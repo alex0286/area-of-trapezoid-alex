@@ -1,0 +1,6 @@
+game.splash("lets calculate the Area of a Trapezoid ")
+let height = game.askForNumber("whats the height ")
+let base_1 = game.askForNumber("whats the base 1")
+let base_2 = game.askForNumber("whats the base 2")
+let area = height * ((base_1 + base_2) / 2)
+game.splash("The area of a Trapezoid with the base1 =" + base_1 + "cm and base2 " + base_2 + "cm and height " + height + "cm is " + area)
